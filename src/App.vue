@@ -30,7 +30,7 @@
 			</p>
 			<button @click="kitobChi">
 				<span v-if="bor">Yopish</span>
-				<span v-else>Buyurmalar</span>
+				<span v-else>Buyurtmalar</span>
 				<span id="qoshiluvchi"> {{ count + count1 }}</span>
 			</button>
 		</div>
@@ -128,18 +128,18 @@ hr {
 	position: relative;
 }
 .akk {
-  display: flex;
+	display: flex;
 	gap: 15px;
 }
 .akk-och {
-  position: absolute;
-  top: 12px;
-  right: 10px;
-  padding: 5px 10px;
-  border: 0;
-  color: khaki;
-  background-color: dimgrey;
-  border-radius: 10px;
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	padding: 5px 10px;
+	border: 0;
+	color: khaki;
+	background-color: dimgrey;
+	border-radius: 10px;
 }
 #left {
 	width: 120px;
