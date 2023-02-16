@@ -165,10 +165,29 @@ hr {
 	margin-left: 5px;
 }
 #qidiruv {
-	margin-top: 50px;
-	margin-left: 50px;
+	margin: 50px 0 50px 50px;
 }
 #qidiruv button {
 	margin-left: 15px;
+}
+@media (max-width: 916px) {
+	hr {
+		width: 100%;
+	}
+	nav {
+		height: 100%;
+		flex-direction: column;
+	}
+	#right {
+		width: 100%;
+		height: 280px;
+	}
+	.akk {
+		flex-direction: column;
+		gap: 5px;
+	}
+	#border {
+		display: none;
+	}
 }
 </style>
