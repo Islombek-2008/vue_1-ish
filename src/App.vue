@@ -62,7 +62,7 @@ export default {
 			count: 0,
 			count1: 0,
 			bor: true,
-			kitob: "O'tgan konlar",
+			kitob: "O'tgan kunlar",
 			shumBola: "Shum bola",
 		};
 	},
